@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class DumpArrayListToFile {
-    DumpArrayListToFile(ArrayList arrayListToSave, String fileNamePath) throws FileNotFoundException {
+    DumpArrayListToFile(ArrayList arrayListToSave, String fileNamePath) throws FileNotFoundException, IOException {
             FileOutputStream fout= new FileOutputStream (fileNamePath);
         try {
             ObjectOutputStream oos = new ObjectOutputStream(fout);
