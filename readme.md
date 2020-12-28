@@ -3,10 +3,5 @@
 - Selenide 
 - Selenoid 
 - Allure
-## tests for demoqa.com
-- Elements
-- Forms
-- Alerts, Frames and windows
-- Widgets
-- Interactions
-- Tests for bookstore application
+## Grab names from ruskino.ru
+need to get list of different names, surnames and patronymic names for other project
