@@ -9,11 +9,11 @@ public class DumpArrayListAsStringToFile {
     public DumpArrayListAsStringToFile(ArrayList<String> arrayListToSave, String fileNamePath) {
         String stringToSave;
         stringToSave = convertedToStringAndCleaned(arrayListToSave);
-            File fileToSaveTo = new File("D:\\Downloads\\" + fileNamePath);
+            File fileToSaveTo = new File(fileNamePath);
             if (fileToSaveTo.exists())
                 fileToSaveTo.delete();
         try {
-            FileWriter doDump = new FileWriter("D:\\Downloads\\" + fileNamePath);
+            FileWriter doDump = new FileWriter(fileNamePath);
             doDump.write(stringToSave);
             doDump.close();
         } catch (IOException e) {
