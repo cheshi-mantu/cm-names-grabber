@@ -37,3 +37,4 @@ target/
 .allure/
 gradlew*
 gradle-wrapper.properties
+/*.txt
